@@ -1,11 +1,24 @@
+
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 
-const SearchForm = () => {
+const SearchForm = ({ userAgeGroup, setTranslationResult, setLoading }) => {
+
+  
 
   let handleFormSubmit = e => {
     e.preventDefault();
-    console.log('did this submit?');
+    setLoading(true);
+
+    if(userAgeGroup === 'genZ'){
+      console.log('API to hit genZ route');
+      setTranslationResult('api response data');
+      setLoading(false)
+    } else if(userAgeGroup === 'millennial' || userAgeGroup === 'boomer'){
+      console.log('Api to hit boomer route');
+      //setTranslationResult('api response data');
+      // setLoading(false)
+    }
   }
 
   return (
