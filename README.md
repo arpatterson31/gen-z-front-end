@@ -43,9 +43,9 @@ Make sure you have the following software installed on your system:
 
 3. Clone the API repo
 
-  ```sh
-  git clone
-  ```
+   ```sh
+   git clone
+   ```
 
 ## Acknowledgments
 
