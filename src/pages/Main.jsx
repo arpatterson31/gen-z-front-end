@@ -19,7 +19,10 @@ const Main = () => {
 
   return (
     <Stack gap={5}>
-      <AgeForm handleUserAgeSelect={handleUserAgeSelect} />
+      <AgeForm 
+        handleUserAgeSelect={handleUserAgeSelect} 
+        userAgeGroup={userAgeGroup}
+      />
       {
         userAgeGroup && (
           <>
@@ -29,11 +32,11 @@ const Main = () => {
               setLoading={setLoading}
             />
             {
-              loading && <Spinner animation="border" variant="primary" />
+              loading && <Spinner animation="border" variant="primary" className="col-md-5 col-10 col-sm-6 mx-auto" />
             }
 
             { 
-              translationResult && <Translation />
+              translationResult && <Translation translationResult={translationResult} />
             }
           </>
         )

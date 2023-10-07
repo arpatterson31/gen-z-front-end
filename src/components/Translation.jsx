@@ -1,10 +1,12 @@
+import '../styles/translation.css';
 
-const Translation = () => {
-
-  // loading...in an if statement
+const Translation = ({ translationResult }) => {
 
   return (
-    <p>Translation results...</p>
+    <div className="speech-bubble col-md-5 col-10 col-sm-6 mx-auto">
+      <p>{translationResult}</p>
+    </div>
+
   )
 
 }

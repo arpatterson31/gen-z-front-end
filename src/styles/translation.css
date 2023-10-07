@@ -1,0 +1,27 @@
+/* Basic styling for the speech bubble */
+.speech-bubble {
+  position: relative;
+	background: #746d81;
+	border-radius: .4em;
+  padding: 1em;
+}
+
+/* Triangle or arrow for the speech bubble */
+.speech-bubble::after {
+  content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #746d81;
+	border-bottom: 0;
+	border-right: 0;
+	margin-left: -10px;
+	margin-bottom: -20px;
+}
+
+.speech-bubble p {
+  color: white;
+}

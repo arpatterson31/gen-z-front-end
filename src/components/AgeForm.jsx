@@ -3,13 +3,12 @@ import Stack from 'react-bootstrap/Stack';
 
 const AgeForm = ({ handleUserAgeSelect }) => {
   return (
-    <Stack gap={2} className="col-md-5 col-10 col-sm-6 mx-auto">
-      <h2>I am...</h2>
+    <Stack gap={1} className="col-md-5 col-10 col-sm-6 mx-auto">
+      <p>Translate from...</p>
       <Form.Select onChange={handleUserAgeSelect} name="userAgeGroup">
         <option value="">Open this select menu</option>
         <option value="genZ">Gen Z</option>
-        <option value="millennial">a Millennial</option>
-        <option value="boomer">a Boomer</option>
+        <option value="boomer">Boomer</option>
       </Form.Select>
     </Stack>
   )

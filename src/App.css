@@ -1,6 +1,8 @@
 #root {
   background-color: #8fedea;
   font-family:'Lato', sans-serif;
-  height: 100vh;
+  min-height: 100vh; /* Set a minimum height to fill the viewport */
+  color: #4d4350;
+
 }
 

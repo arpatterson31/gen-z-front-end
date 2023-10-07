@@ -1,6 +1,10 @@
+import '../styles/footer.css';
+
 const Footer = () => {
   return (
-    <footer>Audrey Patterson &copy; 2023</footer>
+    <footer>
+      <p>Audrey Patterson &copy; 2023</p>
+    </footer>
   )
 }
 
