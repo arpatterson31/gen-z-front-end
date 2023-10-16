@@ -9,6 +9,12 @@ This application is designed to bridge the generation gap by facilitating commun
 - Real-time translation with minimal latency.
 - Mobile-responsive design for use on various devices.
 
+### Screenshots
+
+![Desktop view of application. Being translated by the app is a Gen Z phrase of "No cap fam, she ate and left no crumbs" and receiving the Boomer translation of "Honestly friend, she did an excellent job and left no room for improvement"](src/assets/genGapScreenshot.png)
+
+![Responsive view set to an iPhone 12 Pro. Being translated by the app is a Gen Z phrase of "Jane your fit is cheugy. periodt" and receiving the Boomer translation of "Jane, your outfit is outdated. End of story."](src/assets/responsiveGenGapScreenshot.png)
+
 ### Built With
 
 [![React][React.js]][React-url]
