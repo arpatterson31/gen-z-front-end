@@ -1,10 +1,10 @@
 # Gen Z Translation App
 
-This application is designed to bridge the generation gap by facilitating communication between Boomers, Millennials, and Gen Z individuals. It provides a simple and intuitive interface for translating slang, jargon, and cultural references between these three generations.
+This application is designed to bridge the generation gap by facilitating communication between Boomers and Gen Z individuals. It provides a simple and intuitive interface for translating slang, jargon, and cultural references between these two generations.
 
 ## Features
 
-- Translate slang, jargon, and cultural references from Boomer to Millennial, Millennial to Gen Z, and vice versa.
+- Translate slang, jargon, and cultural references from Boomer to Gen Z, and vice versa.
 - User-friendly interface for entering text and receiving translations.
 - Real-time translation with minimal latency.
 - Mobile-responsive design for use on various devices.
@@ -27,25 +27,33 @@ Make sure you have the following software installed on your system:
 
 ### Installation
 
-*Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services.*
+*This application is a full-stack application and you will also need the corresponding api located here: [gen-z-translate-api](https://github.com/arpatterson31/gen-z-translate-api)*
 
 1. Clone the repo
 
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   ```bash
+   git clone https://github.com/arpatterson31/gen-z-front-end.git
    ```
 
 2. Install NPM packages
 
-   ```sh
+   ```bash
    npm install
    ```
 
-3. Clone the API repo
+3. Run the server
 
-   ```sh
-   git clone
+   ```bash
+   npm run dev
    ```
+
+### Configuration
+
+This project is dependent on the API as well: [gen-z-translate-api](https://github.com/arpatterson31/gen-z-translate-api). The API once installed is defaulted to run on port 3002. Make sure to create a `.env` file in the root of the project and the url to the server as follows:
+
+```sh
+   VITE_SERVER_URL=http://localhost:3002
+```
 
 ## Acknowledgments
 
