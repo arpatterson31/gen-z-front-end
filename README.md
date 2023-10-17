@@ -17,9 +17,7 @@ This application is designed to bridge the generation gap by facilitating commun
 
 ### App in action
 
-  <video autoplay loop muted plays-inline >
-    <source src="src/assets/gengap.mp4" type="video/mp4"/>
-  </video>
+
 
 Press play
 
