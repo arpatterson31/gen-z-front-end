@@ -19,6 +19,10 @@ This application is designed to bridge the generation gap by facilitating commun
 
 
 
+https://github.com/arpatterson31/gen-z-front-end/assets/33011362/4cabef6d-675a-4074-89f0-c6a31c23fe91
+
+
+
 Press play
 
 ### Built With
