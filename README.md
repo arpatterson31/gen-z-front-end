@@ -15,6 +15,10 @@ This application is designed to bridge the generation gap by facilitating commun
 
 ![Responsive view set to an iPhone 12 Pro. Being translated by the app is a Gen Z phrase of "Jane your fit is cheugy. periodt" and receiving the Boomer translation of "Jane, your outfit is outdated. End of story."](src/assets/responsiveGenGapScreenshot.png)
 
+<video width="320" height="240" controls>
+  <source src="src/assets/gengap.mp4" type="video/mp4">
+</video>
+
 ### Built With
 
 [![React][React.js]][React-url]
